@@ -1,0 +1,32 @@
+$yellow-main: #ffbb33;
+
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 2.6em;
+  text-align: center;
+}
+
+.social_list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.social_list li {
+  margin: 0 1em;
+  cursor: pointer;
+}
+
+.social_list li:hover {
+  color: $yellow-main;
+}
+
+.copy_right {
+  margin-top: 1.7em;
+}
+
+.copy_right span {
+  font-weight: bold;
+  color: $yellow-main;
+}

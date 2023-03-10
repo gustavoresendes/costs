@@ -1,0 +1,14 @@
+$yellow-main: #ffbb33;
+
+.btn {
+  background-color: #222;
+  color: #fff;
+  padding: 0.6em 1em;
+  text-decoration: none;
+  transition: ease 0.5s;
+  border-radius: 1.2em;
+}
+
+.btn:hover {
+  color: $yellow-main;
+}
