@@ -1,13 +1,31 @@
-# Projeto Costs 💰
+<h1 align="center">Costs</h1>
 
-Projeto criado durante o curso de React do canal Hora de Codar no Youtube.
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>
+</p>
 
-A única diferença desse projeto para o verdadeiro foi a utilização do SASS no lugar do CSS e o phosphor-react como biblioteca de ícones.
+<br>
 
-O projeto é uma SAP (Single page application) utilizando o react-router-dom e seu propósito é ser uma aplicação fácil e simples para calcular as despesas na criação de projetos, podendo colocar seus custos, gastos, necessidades e serviços.
+<p align="center">
+  <img alt="costs" src=".github/project.png" width="100%">
+</p>
 
-## Tecnologias utilizadas: ✔
+## 🚀 Tecnologias
 
-**React**
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-**SASS**
+- JavaScript
+- [ReactJS](https://reactjs.org/)
+- [SASS](https://sass-lang.com/)
+- [Vite](https://vitejs.dev/)
+- [Npm](https://www.npmjs.com/)
+
+## 💻 Projeto
+
+Aplicação voltado para auxiliar a criação e manutenção de projetos.
+
+- [x] Organize as despesas, custos e serviços dos projetos.
+- [x] Separe projetos por categorias.
+- [x] Adicione serviços.
