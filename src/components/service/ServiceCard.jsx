@@ -6,8 +6,8 @@ import styles from "../project/ProjectCard.module.scss";
 
 const ServiceCard = ({ id, name, cost, description, handleRemove }) => {
   const remove = (e) => {
-    e.preventDefault()
-    handleRemove(id, cost)
+    e.preventDefault();
+    handleRemove(id, cost);
   };
 
   return (
