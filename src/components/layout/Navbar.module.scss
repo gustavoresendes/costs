@@ -1,5 +1,7 @@
+@use '../../styles/variables';
+
 .navbar {
-  background-color: #222;
+  background-color: variables.$bg-color;
   padding: 1em;
 }
 
@@ -14,11 +16,11 @@
 }
 
 .item a {
-  color: white;
+  color: variables.$white;
   text-decoration: none;
 }
 
 .item a:hover {
-  color: #ffbb33;
+  color: variables.$yellow-main;
   transition: ease 0.5s;
 }

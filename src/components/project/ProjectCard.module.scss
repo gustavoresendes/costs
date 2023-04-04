@@ -1,27 +1,23 @@
-$infra-color: #ffaebc;
-$dev-color: #a0e7e5;
-$design-color: #b4f8c8;
-$plan-color: #fbe7c6;
-$yellow-main: #ffbb33;
+@use "../../styles/variables";
 
 .project_card {
   padding: 1em;
-  border: 1px solid #7a7a7a;
+  border: 1px solid variables.$gray;
   border-radius: 5px;
   width: 24%;
   margin: 0.5%;
 }
 
 .project_card h4 {
-  background-color: #222;
-  color: $yellow-main;
+  background-color: variables.$bg-color;
+  color: variables.$yellow-main;
   padding: 0.4em;
   margin-bottom: 1.3em;
   font-size: 1.3em;
 }
 
 .project_card p {
-  color: #7a7a7a;
+  color: variables.$gray;
   margin-bottom: 1em;
 }
 
@@ -39,24 +35,24 @@ $yellow-main: #ffbb33;
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #ccc;
+  background-color: variables.$light-gray;
   margin-right: 5px;
 }
 
 .category_text .infra {
-  background-color: $infra-color;
+  background-color: variables.$infra-color;
 }
 
 .category_text .desenvolvimento {
-  background-color: $dev-color;
+  background-color: variables.$dev-color;
 }
 
 .category_text .design {
-  background-color: $design-color;
+  background-color: variables.$design-color;
 }
 
 .category_text .planejamento {
-  background-color: $plan-color;
+  background-color: variables.$plan-color;
 }
 
 .project_card_actions {
@@ -69,13 +65,13 @@ $yellow-main: #ffbb33;
 .project_card_actions button {
   text-decoration: none;
   border: none;
-  background-color: #fff;
-  color: #222;
+  background-color: variables.$white;
+  color: variables.$bg-color;
   font-size: 0.9em;
   padding: 0.6em 1em;
   margin-right: 1em;
   cursor: pointer;
-  border: 1px solid #222;
+  border: 1px solid variables.$bg-color;
   transition: 0.5s;
   display: flex;
   align-items: center;
@@ -88,6 +84,6 @@ $yellow-main: #ffbb33;
 
 .project_card_actions a:hover,
 .project_card_actions button:hover {
-  background-color: #222;
-  color: $yellow-main;
+  background-color: variables.$bg-color;
+  color: variables.$yellow-main;
 }

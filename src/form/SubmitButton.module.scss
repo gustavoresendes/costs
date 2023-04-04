@@ -1,10 +1,8 @@
-$bg-color: #222;
-$color: #fff;
-$yellow-main: #ffbb33;
+@use "../styles/variables";
 
 .btn {
-  background-color: $bg-color;
-  color: $color;
+  background-color: variables.$bg-color;
+  color: variables.$white;
   padding: 0.7em 1.2em;
   text-decoration: none;
   transition: ease 0.5s;
@@ -13,5 +11,5 @@ $yellow-main: #ffbb33;
 }
 
 .btn:hover {
-  color: $yellow-main;
+  color: variables.$yellow-main;
 }

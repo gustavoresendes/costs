@@ -1,14 +1,9 @@
-$sucess-color: #155724;
-$sucess-bg: #d4edda;
-$sucess-border: #c3e6cb;
-$error-color: #721c24;
-$error-bg: #f8d7da;
-$error-border: #f5c6cb;
+@use '../../styles/variables';
 
 .message {
   width: 100%;
   padding: 1em;
-  border: 1px solid #000;
+  border: 1px solid variables.$black;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 2em;
@@ -16,13 +11,13 @@ $error-border: #f5c6cb;
 }
 
 .success {
-  color: $sucess-color;
-  background-color: $sucess-bg;
-  border-color: $sucess-border;
+  color: variables.$sucess-color;
+  background-color: variables.$sucess-bg;
+  border-color: variables.$sucess-border;
 }
 
 .error {
-  color: $error-color;
-  background-color: $error-bg;
-  border-color: $error-border;
+  color: variables.$error-color;
+  background-color: variables.$error-bg;
+  border-color: variables.$error-border;
 }

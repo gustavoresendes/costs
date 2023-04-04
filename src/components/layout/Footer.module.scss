@@ -1,8 +1,8 @@
-$yellow-main: #ffbb33;
+@use '../../styles/variables';
 
 .footer {
-  background-color: #222;
-  color: white;
+  background-color: variables.$bg-color;
+  color: variables.$white;
   padding: 2.6em;
   text-align: center;
 }
@@ -19,7 +19,7 @@ $yellow-main: #ffbb33;
 }
 
 .social_list li:hover {
-  color: $yellow-main;
+  color: variables.$yellow-main;
 }
 
 .copy_right {
@@ -28,5 +28,5 @@ $yellow-main: #ffbb33;
 
 .copy_right span {
   font-weight: bold;
-  color: $yellow-main;
+  color: variables.$yellow-main;
 }

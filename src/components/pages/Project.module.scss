@@ -1,4 +1,4 @@
-$yellow-main: #ffbb33;
+@use '../../styles/variables';
 
 .project_details {
   padding: 2em;
@@ -12,8 +12,8 @@ $yellow-main: #ffbb33;
 }
 
 .project_details h1 {
-  background-color: #222;
-  color: $yellow-main;
+  background-color: variables.$bg-color;
+  color: variables.$yellow-main;
   padding: 0.4em;
 }
 
@@ -23,7 +23,7 @@ $yellow-main: #ffbb33;
 
 .details_container,
 .service_form_container {
-  border-bottom: 1px solid #7a7a7a;
+  border-bottom: 1px solid variables.$gray;
   margin-bottom: 1.2em;
   padding-bottom: 1.2em;
   display: flex;
@@ -32,8 +32,8 @@ $yellow-main: #ffbb33;
 }
 
 .btn {
-  background-color: #222;
-  color: #fff;
+  background-color: variables.$bg-color;
+  color: variables.$white;
   padding: 0.6em 1em;
   text-decoration: none;
   transition: ease 0.5s;
@@ -44,7 +44,7 @@ $yellow-main: #ffbb33;
 }
 
 .btn:hover {
-  color: $yellow-main;
+  color: variables.$yellow-main;
 }
 
 .project_info {
