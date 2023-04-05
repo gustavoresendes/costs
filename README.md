@@ -23,7 +23,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Aplicação voltado para auxiliar a criação e manutenção de projetos.
+Aplicação voltada para auxiliar a criação e manutenção de projetos.
 
 - [x] Organize as despesas, custos e serviços dos projetos.
 - [x] Separe projetos por categorias.
