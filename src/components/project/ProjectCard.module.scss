@@ -1,4 +1,5 @@
 @use "../../styles/variables";
+@use '../../styles/mixins';
 
 .project_card {
   padding: 1em;
@@ -73,9 +74,7 @@
   cursor: pointer;
   border: 1px solid variables.$bg-color;
   transition: 0.5s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include mixins.flex-center
 }
 
 .project_card_actions svg {
